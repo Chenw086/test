@@ -6,4 +6,4 @@ EXPOSE 80 443
 
 COPY test.html /usr/share/nginx/html/test.html
 
-CMD [ "pwd" ]
+# CMD [ "pwd" ]
